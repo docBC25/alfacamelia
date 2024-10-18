@@ -3,67 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alfa & Camélia - Centre Esthétique Médical</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Alfa & Camélia</h1>
-        <p>Centre Esthétique Médical à Montbéliard</p>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#epilation">Épilation Laser</a></li>
-                <li><a href="#injection">Injection</a></li>
-                <li><a href="#detatouage">Détatouage</a></li>
-                <li><a href="#cicatrices">Cicatrices</a></li>
-                <li><a href="#lesions">Lésions et Taches</a></li>
-                <li><a href="#silhouette">Silhouette</a></li>
-            </ul>
-        </nav>
+        <p>Centre esthétique médical situé à Montbéliard</p>
     </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#epilation-laser">Épilation Laser</a></li>
+            <li><a href="#injection">Injection</a>
+                <ul class="submenu">
+                    <li><a href="#toxine-hyaluronique">Toxine Botulique ou Acide Hyaluronique : Choisir</a></li>
+                    <li><a href="#hyaluronique">Injection d'Acide Hyaluronique</a></li>
+                    <li><a href="#toxine-botulique">Injection de Toxine Botulique</a></li>
+                </ul>
+            </li>
+            <li><a href="#detatouage">Détatouage</a></li>
+            <li><a href="#cicatrices">Cicatrices</a></li>
+            <li><a href="#lesions-taches">Lésions et Taches</a></li>
+            <li><a href="#silhouette">Silhouette</a></li>
+        </ul>
+    </nav>
 
     <section id="accueil">
-        <h2>Bienvenue à Alfa & Camélia</h2>
-        <p>Nous offrons des traitements esthétiques de pointe pour sublimer votre beauté.</p>
+        <h2>Bienvenue chez Alfa & Camélia</h2>
+        <p>Découvrez nos services médicaux esthétiques pour sublimer votre beauté.</p>
     </section>
 
-    <section id="epilation">
+    <section id="epilation-laser">
         <h2>Épilation Laser</h2>
-        <p>Découvrez nos traitements d'épilation au laser pour une peau douce et sans poils.</p>
+        <p>Nos services d'épilation laser sont sûrs, efficaces et adaptés à votre type de peau.</p>
     </section>
 
     <section id="injection">
         <h2>Injection</h2>
-        <p>Nous proposons des solutions d'injections pour combler les rides et redonner du volume.</p>
+        <p>Les injections permettent de corriger les rides et de redonner du volume au visage.</p>
+
+        <!-- Sous-section : Toxine ou Acide Hyaluronique -->
+        <section id="toxine-hyaluronique">
+            <h3>Injections de toxine botulique ou acide hyaluronique : faire le bon choix</h3>
+            <p>Découvrez les différences entre la toxine botulique et l'acide hyaluronique, et faites le choix adapté à vos besoins esthétiques.</p>
+        </section>
+
+        <!-- Sous-section : Acide Hyaluronique -->
+        <section id="hyaluronique">
+            <h3>Injection d'acide hyaluronique</h3>
+            <p>L'acide hyaluronique permet de redonner du volume aux zones creusées du visage et de réduire les rides.</p>
+        </section>
+
+        <!-- Sous-section : Toxine Botulique -->
+        <section id="toxine-botulique">
+            <h3>Injection de toxine botulique</h3>
+            <p>La toxine botulique agit sur les rides d'expression en relâchant les muscles responsables de leur formation.</p>
+        </section>
     </section>
 
     <section id="detatouage">
         <h2>Détatouage</h2>
-        <p>Nous vous aidons à effacer les tatouages indésirables avec des techniques modernes.</p>
+        <p>Nous utilisons les technologies laser les plus avancées pour effacer les tatouages indésirables.</p>
     </section>
 
     <section id="cicatrices">
         <h2>Cicatrices</h2>
-        <p>Traitement des cicatrices avec des solutions adaptées à chaque type de peau.</p>
+        <p>Nos traitements de cicatrices atténuent les imperfections et améliorent la texture de la peau.</p>
     </section>
 
-    <section id="lesions">
+    <section id="lesions-taches">
         <h2>Lésions et Taches</h2>
-        <p>Réduction des lésions cutanées et des taches pigmentaires pour une peau unifiée.</p>
+        <p>Nous proposons des traitements pour éliminer les taches pigmentaires et les lésions cutanées.</p>
     </section>
 
     <section id="silhouette">
         <h2>Silhouette</h2>
-        <p>Affinez votre silhouette avec nos traitements non invasifs pour remodeler le corps.</p>
+        <p>Affinez votre silhouette grâce à nos solutions de remodelage corporel.</p>
     </section>
 
     <footer>
-        <div class="footer-content">
-            <p>56 rue Jacques Foillet, 25200 Montbéliard</p>
-            <p>Tel: 06 45 34 50 78</p>
-        </div>
-        <p>&copy; 2024 Alfa & Camélia - Centre Esthétique Médical à Montbéliard. Tous droits réservés.</p>
+        <p>Adresse : 56 rue Jacques Foillet, 25200 Montbéliard</p>
+        <p>Téléphone : 06 45 34 50 78</p>
     </footer>
 
     <script src="script.js"></script>
