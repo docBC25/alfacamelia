@@ -16,6 +16,26 @@ header .logo {
     height: auto;
 }
 
+.presentation {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.appointment-btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.appointment-btn a {
+    color: white;
+    text-decoration: none;
+}
+
 nav {
     background-color: #333;
     padding: 10px;

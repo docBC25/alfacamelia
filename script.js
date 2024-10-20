@@ -10,3 +10,9 @@ window.addEventListener('scroll', function() {
         }
     });
 });
+
+// Redirection vers le numéro de téléphone sur le clic du bouton
+const appointmentBtn = document.querySelector('.appointment-btn');
+appointmentBtn.addEventListener('click', () => {
+    window.location.href = "tel:+33645345078";
+});
