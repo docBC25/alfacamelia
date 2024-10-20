@@ -1,2 +1,12 @@
-// Un script pour les interactions à ajouter plus tard, si nécessaire
-console.log('Bienvenue sur Alfa & Camélia');
+window.addEventListener('scroll', function() {
+    const sections = document.querySelectorAll('section');
+    const scrollPosition = window.pageYOffset;
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - window.innerHeight / 1.3;
+
+        if (scrollPosition > sectionTop) {
+            section.classList.add('active');
+        }
+    });
+});
